@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>K-DRAMAS</title>
+
+    <link rel="icon" type="image/x-icon" href="images/icon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- conexion con otros archivos en head tambien -->
+    <!-- CONEXION CON CSS
+        rel-relacion este documento
+    href-donde esta el documento  -->
+    <link href="style.css" rel="stylesheet">
+</head>
+<!---->
+<body>
+    <main>
+        <nav class="navbar navbar-expand-md navbar-light">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbar-toggler">
+                <a class="navbar-brand" href="#">
+                  <img src="images/icon.png" width="50" alt="Logo de la página web">
+                </a>
+                <ul class="navbar-nav d-flex justify-content-center align-items-center">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="https://doramasflix.co/">Series</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#comentarios">Comentarios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contacto">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        <h1> TOP K-DRAMAS PARA LLORAR</h1>
+        <!-- break, espacio -->
+        <br>
+        <!-- Modificar imagen, img a traves de la web-->
+        <!--  -->
+        <!-- img source (ruta de la imagen)//alt(descripcion de la imagen cuando hay error en la imagen)-->
+        
+        <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+            <img class="im1" src="images/im1.png" alt="Presentacion">
+        </div>
+        
+        <!-- a traves de la computadora, crear carpeta (images), /../ poner diagonal  -->
+       <!-- agregar class para darle nombre propio y llamarlo directamente en css -->
+        <!-- <img class="imagen1" src="/images/Kirby Chopsticks.jpg" alt="Una descripcion cute">
+        <img src="/images/Register - Login.jpg" alt="kirby dormido"> -->
+        <br>
+        <br>
+
+        <!-- lestra dif -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap" rel="stylesheet">
+
+                  <!-- div -divisiones -->
+        <div class=" d-flex flex-column justify-content-center align-items-center">
+            
+            <!-- anclas a, crean enlace en la misma pagina u otra-->
+            <!-- # redirige (busca) a una seccion de nuestra pagina o poner link para una pagina de google -->
+            <a href="#top">Top 5</a>
+            <a href="#Trailer">Trailers</a>
+            <a href="#descripcion">Descripcion</a>
+            <a href="#plataformas">Plataformas</a>
+        </div>
+        <br> <br>
+        <!-- LISTAS (varios tipos) -->
+        <!-- ul -unordered list(no ordenado) crea estructura y despues li-->
+        <section id="top" class="TOP">  
+        <h2 id="top">Top 5</h2>
+            <ul>
+                <!-- (puede cambiar el elemento)   li*nodeveces    que se quiere-->
+                <li>Moon lovers</li>
+                    <img class="im2" src="images/Pegatinas_ Kdrama.png" alt="Moon lovers">
+                <li>Navillera</li>
+                <img class="im1" src="images/navillera.png" alt="Navillera">
+                <li>Youth of may</li>
+                <img class="im1" src="images/Youth Of May Stickers.png" alt="YOUTH OF MAY">
+                <li>Snowdrop</li>
+                <img class="im1" src="images/SNOW.png" alt="SNOWDROP">
+                <li>Goblin</li>
+                <img class="im1" src="images/GOBLING.png" alt="GOBLIN">
+            </ul>
+        </section>     
+        <div>
+        <!-- OL- oredered list -->
+            <h2 id="Trailer">Trailers</h2>
+            <h3>Moon lovers</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/2ljxyaAIphc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h3>Navillera</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/YtK3Vtw4rno?si=2G0e2k-h-Fi1xcm0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <h3>Youth of may</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/zSivMzPMXV0?si=7R4VmCaYGpCt3JcD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <h3>Snowdrop</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/cM-6adTZDMQ?si=1m2jmzouq3xZo7J7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <h3>Goblin</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/S94ukM8C17A?si=8roOQuBCG0_bROoz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <!-- <ol>
+            <li>Positivo</li>
+            <li>Amistoso</li>
+            <li>Ingenuo</li>
+        </ol> -->
+        <!-- he3 header no tan grande, encabezado -->
+        <!-- id le da "nombre propio" -->
+        <section id="description" class="desc">
+        <h2 id="descripcion">Descripcion</h2>
+        <h3>Moon lovers</h3>
+        <!--  lorem llena de tDescripcioneto, se puede multiplicar para que de más -->
+        <p>Scarlet Heart Ryeo se desarrolla durante la dinastía Goryeo y cuenta la historia de Hae Soo, una mujer del siglo XXI que viaja en el tiempo y se convierte en Hae Soo, una dama de la corte en la casa del príncipe Wang Won. Hae Soo debe navegar por las luchas políticas y personales de los príncipes y sus familias mientras intenta encontrar una manera de regresar a su propio tiempo.</p>
+        <h3>Navillera</h3>
+        <p>Navillera es una comedia dramática conmovedora sobre Cha Deok-gil, un hombre de 70 años que siempre ha soñado con convertirse en bailarín de ballet. Cuando conoce a Park Chae-rok, un aspirante a bailarín de ballet de 23 años que lucha por hacer realidad sus propios sueños, Deok-gil decide inscribirse en una clase de ballet.</p>
+        <h3>Youth of may</h3>
+        <p>Youth of May es un drama romántico ambientado en Gwangju, Corea del Sur, en la década de 1980. La historia sigue a Hwang Hee-tae, un estudiante de medicina que se ofrece como voluntario en un hospital durante el levantamiento de Gwangju, y Kim Myung-hee, una enfermera que trabaja en el hospital.</p>
+        <h3>Snowdrop</h3>
+        <p>Snowdrop se desarrolla en Corea del Sur en 1987 y cuenta la historia de Eun Young-ro, una estudiante universitaria que se enamora de Lim Soo-ho, un espía norcoreano. El drama sigue su romance mientras navegan por los desafíos políticos y personales de su relación.</p>
+        <h3>Goblin</h3>
+        <p>Goblin es un drama de fantasía sobre un duende inmortal llamado Kim Shin, quien está condenado a vivir eternamente a menos que encuentre una novia que pueda ver su verdadero yo. Cuando conoce a Ji Eun-tak, una estudiante de secundaria que afirma poder ver su forma de duende, Shin cree que ella puede ser la única que puede romper su maldición.</p>
+        </section>
+        <h2 id="plataformas">Plataformas</h2>
+        <ul>
+            <li>Netflix</li>
+            <li>Viki</li>
+            <li>Doramasflix</li>
+            <li>Hi TV</li>
+        </ul>
+        <br>
+
+        <!-- imagen dentro de un ancla -->
+
+        <p>Sorpresa del día, picale a la imagen</p>
+        <a class="Bongocat" href="https://bongo.cat/"> 
+            <img src="images/icono.jpg" alt=" ups">
+        </a>
+
+        <!-- formularios -->
+        <!-- envia unformacion a una base de datos o algun otro lugar pero en este caso no se usa, entoces se quita -->
+        <!-- <form action=""></form> -->
+        <form>
+            <p>Comentarios</p>
+            <!-- etiqueta identificadora-->
+            <label for="dif-algo"> 
+                <!-- el usuario puede meter texto, radio opcion ovalo -->
+                <input type="text">
+                <!-- boton -->
+                <button class="pregunta1">Enviar</button>
+            </label>
+            <!-- FORMULARIO INPUT RADIO (seleccionar una opcion)-->
+            <p>¿Qué serie veras primero?</p>
+            <!-- for identificador resouesta individual -->
+            <label for="pregunta2">
+                <!-- name, nombre que se repite en todas las opciones, para relacionar todas las respuestas de ese formulario -->
+                <input type="radio" name="NAVILL">Navillera
+            </label>
+            <!-- con name para que solo deje elegir una opcion y no todas del mismo flrmulario -->
+            <label for="pregunta2">
+                <input type="radio" name="SNOW"> Snowdrop
+            </label>
+            <label for="pregunta3">
+                <!-- los inpu pueden esgtar dentro dekl mismo label pero no es buena practica por los for en una base de datos -->
+                <input type="radio" name="GOBLIN"> Goblin
+            </label>
+
+            <!--  Varias opciones CHECKBOK-->
+            <!-- <p>Cual es tu personaje fav....?</p>
+            <label for="pregunta-1">
+                <input type="checkbox" name="relacion2">kirby
+            </label>
+            <label for="pregunta-2">
+                <input type="checkbox" name="relacion2"> Opcio de otra pregunta
+            </label>
+            <label for="pregunta-3">
+                <input type="checkbox" name="relacion2"> Opcio de otra pregunta
+            </label> -->
+        </form>
+        <footer class="navbar d-flex flex-column align-items-center justify-content-center"> 
+            <img class="footer-logo" src="images/icon.png" alt="Logo del portafolio">
+            <p class="footer-texto text-center">Una dosis de amor al día<br>  ARMY <i class="bi bi-heart"></i> </p>
+            <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+              <a href="https://github.com/anikey1" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-github"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/anikey-andrea/" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-linkedin"></i>
+              </a>
+              <a href="https://www.instagram.com/anikeyandrea/" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-instagram"></i>
+              </a>
+              <a href="mailto: anikeyandrea20@gmail.com" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-envelope"></i>
+              </a>
+            </div>
+            <div class="derechos-de-autor">Creado por Anikey Andrea (2023) &#169;</div>
+          </footer>
+      
+    </main>
+</body>
+</html>
